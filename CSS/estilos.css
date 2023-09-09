@@ -1,0 +1,36 @@
+
+
+p {
+    color: red; width: 400px;
+}
+
+/**esto es una prueba de comentario*/
+
+section {
+    border: 1px solid black; 
+    padding: 5px 20px 5px 20px;
+    margin-top:50px;
+    margin-left: 60px;
+    font-size:50px ; width: 50px;
+    color: darkred;
+}
+
+#miiddeparrafo {
+
+font-size: 20px;
+
+}
+
+#parrafo_especial {
+
+font-family: 'Pacifico', cursive;
+color: green;
+width: 300px;
+
+}
+
+section p {
+
+    font-size: 800px;
+    color: deeppink;
+}
