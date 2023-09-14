@@ -1,18 +1,11 @@
-
-
-p {
-    color: red; width: 400px;
-}
-
-/**esto es una prueba de comentario*/
-
+* 
 section {
     border: 1px solid black; 
     padding: 5px 20px 5px 20px;
     margin-top:50px;
     margin-left: 60px;
     font-size:50px ; width: 50px;
-    color: darkred;
+    color: red;
 }
 
 #miiddeparrafo {
@@ -25,12 +18,12 @@ font-size: 20px;
 
 font-family: 'Pacifico', cursive;
 color: green;
-width: 300px;
+width: 50px;
 
 }
 
 section p {
 
-    font-size: 800px;
-    color: deeppink;
+    font-size: 50px;
+    color: rgb(196, 165, 182);
 }

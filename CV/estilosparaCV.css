@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4; /* Color de fondo para la columna izquierda */
+}
+
+/* Estilos para encabezados h2 */
+h2 {
+    font-family: 'Signika', sans-serif;
+}
+
+/* Estilos para las secciones */
+.cv-columnleft {
+    padding: 20px;
+    background-color: #e7a2b9; /* Color de fondo para la columna derecha va rosa */
+}
+
+/* Estilos para las secciones */
+.cv-columnright {
+    padding: 20px;
+    background-color: #e0ded8; /* Color de fondo para la columna derecha va rosa */
+}
+
+
+/* Estilos para la foto 
+.cv-photo {
+    max-width: 200px;
+    border: black;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: block;
+}
+*/
+
+/* Estilos para los elementos p */
+.cv-contact p,
+.cv-education ul,
+.cv-experience ul,
+.cv-skills ul,
+.cv-courses ul {
+    margin: 5px 0;
+}
+
+.cv-photo img {
+   
+    max-width: 200px;
+    border:5px solid black;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: block;
+   
+   
+   /* border-radius: 50%;
+    border: 5px solid #000;
+    max-width: 200px;
+    max-height: 100px;
+    margin: 0 auto;
+    display: block;
+    */
+}
+
+/* Estilo del botón para cambiar la foto */
+#changePhotoLabel {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+    color: #c009d8;
+}
+
+
+#voiceButton {
+    /* Estilos para el botón */
+    padding: 10px 20px;
+    background-color: #68305e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#voiceButton:hover {
+    background-color: #1ef70a;
+}

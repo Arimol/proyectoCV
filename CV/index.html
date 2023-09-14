@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="/CV/estilosparaCV.css">
+    <!-- Agregar la biblioteca Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="cv-container">
+        <div class="cv-columnleft">
+            <div class="cv-header">
+                <div class="cv-photo">
+                    <input type="file" accept="image/*" id="changePhotoButton" style="display: none;">
+                    <label for="changePhotoButton" id="changePhotoLabel">Cambiar Foto</label>
+                    <img src="/CV/fotos/WhatsApp Image 2023-09-13 at 1.46.26 PM.jpeg" id="profilePhoto" alt="Tu Foto">
+                </div>
+                <h1 id="cv-name">ARIEL MOLBERT</h1>
+                <button id="changeNameButton">Cambiar Nombre</button>
+            </div>
+            <div class="cv-profession">
+                <h2><i class="fas fa-briefcase"></i> Perfil Profesional</h2>
+                <p id="profileText">FRONT END como Aprendiz</p>
+                <button id="changeProfileButton">Cambiar Perfil Profesional</button>
+            </div>
+            <h2><i class="fas fa-address-card"></i> Datos de Contacto</h2>
+                <p><i class="fas fa-envelope"></i> Email: <span id="email">arielhernanmolbert@gmail.com</span></p>
+                <p><i class="fas fa-phone"></i> Teléfono: <span id="telefono">(506) 7009-6607</span></p>
+                <p><i class="fab fa-linkedin"></i> <a href="#" target="_blank" id="linkedinLink">Visita mi Linkedin</a></p>
+            <button id="changeContactButton">Cambiar Datos de Contacto</button>
+          
+        </div>
+
+        <div class="cv-columnright">
+            
+            <button id="voiceButton">Escucha sobre mi y mis expetativas</button>
+            <audio id="voiceMessage" src="/CV/audio/20230913_010900.m4a"></audio>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="cv-experience">
+                <h2><i class="fas fa-briefcase"></i> Experiencia Laboral</h2>
+                    <ul id="experienceList">
+                        <li><strong>Trabajo 1</strong> - SanCor (1995-03-03 - 2017-01-01) <button class="editButton">Editar</button></li>
+                        <li><strong>Trabajo 2</strong> - Municipio de Lanus (2017-02-02 - 2019-01-01) <button class="editButton">Editar</button></li>
+                    </ul>
+                    <button id="addExperienceButton">Agregar Experiencia Laboral</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="cv-education">
+                <h2><i class="fas fa-graduation-cap"></i> Educación</h2>
+                <ul id="educationList">
+                    <li><strong>TECNICO EN ECONOMIA</strong> - UNLA (2019) <button class="editButton">Editar</button></li>
+                    <li><strong>PERITO MERCANTIL</strong> - PERPETUO SOCORRO (1995 ) <button class="editButton">Editar</button></li>
+                </ul>
+                <button id="addEducationButton">Agregar Educación</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="cv-courses">
+                <h2><i class="fas fa-book"></i> Cursos y Talleres</h2>
+                   <ul id="coursesList">
+                        <li>Programacion en Python - De cero a experto <button class="editButtonCourses">Editar</button></li>
+                        <li>Ciberseguridad Cisco - Analista en Cyberseguridad <button class="editButtonCourses">Editar</button></li>
+                    </ul>
+                    <button id="addCoursesButton">Agregar Cursos y Talleres</button>
+            </div>
+            <br>            
+            <br>
+            <br>
+            <br>
+            <button id="showSkillsButton">Mostrar Habilidades Blandas</button>
+            <div id="skillsInfo" style="display: none;">
+            <p>Mis mejores habilidades blandas son: habilidades de comunicación, trabajo en equipo, flexibilidad para el aprendizaje, Gestión de tiempo, Gestión de conflictos, Resilencia</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
